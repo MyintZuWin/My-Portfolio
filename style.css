@@ -107,7 +107,7 @@ div#about {
   }
   .sidebar a {
   	float: left;
-	  font-size: 0.7rem;
+	  font-size: 0.7rem!important;
   }
 
   div.content {
