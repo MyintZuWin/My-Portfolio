@@ -24,7 +24,6 @@ body{
 	color: #04AA6D!important;  
 	margin-bottom: 5rem;
   font-size: 2.7rem!important;
-
 }
 
 .sidebar a {
@@ -183,8 +182,6 @@ div#about {
   	padding: 10em 3rem;
   }
 
-
-
   #content-name-link{
     font-size: 3rem!important;
     color:#343a40!important;
@@ -201,16 +198,37 @@ div#about {
 
 @media screen and (max-width: 600px) {
   .sidebar a {
-    font-size: 0.8rem!important;
-    padding: 15px;
+    font-size: 0.9em!important;
+    padding: 16px 10px;
+  }
+
+  a.name-link {
+    font-size: 1rem!important;
   }
   .resume-content {
     min-height: auto;
   }
 
+ #content-name-link{
+    font-size: 2.5rem!important;
+    color:#343a40!important;
+  }
+  .content-title {
+  font-size: 2rem!important;
+}
+  div#about {
+    padding: 15em 3rem;
+  }
 
 }
 
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    font-size: 0.8em!important;
+    padding: 16px 10px;
+  }
+}
 
 /*@media screen and (max-width: 400px) {
 	.sidebar {
