@@ -61,7 +61,6 @@ p {
 }
 
 .resume-content {
-margin-top: 0;
 	padding: 5rem 3rem;
 	min-height: 100vh;
 }
@@ -146,6 +145,7 @@ div#about {
   a.name-link {
     font-size: 1.2rem!important;
   }
+
   .resume-content {
     min-height: auto;
   }
@@ -162,7 +162,7 @@ div#about {
     padding: 15em 3rem;
   }
 
-  ß.dev-icons{
+  .dev-icons{
     font-size: 2rem;
   }
 }
@@ -170,7 +170,7 @@ div#about {
 
 @media screen and (max-width: 480px) {
   .sidebar a {
-    font-size: 0.6em!important;
+    font-size: 0.5em!important;
     padding: 25px 10px;
   }
 
@@ -186,10 +186,15 @@ div#about {
     min-height: auto;
   }
 
- #content-name-link{
+  #content-name-link{
     font-size: 2.5rem!important;
     color:#343a40!important;
   }
+
+  div#about {
+    padding: 15em 3rem;
+  }
+
   .content-title {
     font-size: 2.5rem!important;
   }
