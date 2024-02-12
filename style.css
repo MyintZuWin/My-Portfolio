@@ -170,7 +170,7 @@ div#about {
 
 @media screen and (max-width: 480px) {
   .sidebar a {
-    font-size: 0.7em!important;
+    font-size: 0.5em!important;
     padding: 25px 10px;
   }
 
@@ -181,6 +181,11 @@ div#about {
   a.name-link {
     font-size: 1.2rem!important;
   }
+
+  div#about {
+    padding: 15em 2rem;
+  }
+
   .resume-content {
     min-height: auto;
   }
