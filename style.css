@@ -30,10 +30,11 @@ body{
 .sidebar a {
   display: block;
   color: rgba(255, 255, 255, 0.55);
-  padding: 16px;
+  padding: 20px;
   text-decoration: none;
   font-weight: 700;
   font-size: 1rem;
+  line-height: 24px;
 }
  
 .sidebar a.active {
@@ -82,11 +83,14 @@ div#about {
 }
 
 .name-link {
-  font-family: 'Courier New', monospace;
+  font-family: 'Courier New';
+  color: #343a40!important;
+  font-size: 1.5rem!important;
 }
 
-
-
+.dev-icons{
+  font-size: 3rem;
+}
 
 
 /* For Desktop View */
@@ -168,6 +172,7 @@ div#about {
     display: flex;
     align-items: center;
   	float: left;
+    font-size: 0.9rem;
   }
 
   div.content {
@@ -188,13 +193,22 @@ div#about {
   p{
     font-size: 0.8rem;
   }
+  .resume-content {
+    min-height: auto;
+  }
 }
 
 
 @media screen and (max-width: 600px) {
   .sidebar a {
-    font-size: 0.7rem!important;
+    font-size: 0.8rem!important;
+    padding: 15px;
   }
+  .resume-content {
+    min-height: auto;
+  }
+
+
 }
 
 
