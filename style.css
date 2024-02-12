@@ -1,0 +1,134 @@
+*{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+body{
+	color: #6c757d;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #04AA6D;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.content-title {
+	font-weight: 900;
+	color: #343a40;
+	margin-bottom: 5rem;
+}
+
+.sidebar a {
+  display: block;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 16px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+}
+ 
+.sidebar a.active {
+  /*background-color: #04AA6D;*/
+  color: white;
+}
+
+.sidebar a:hover{
+  background-color: lightgray;
+  color: #974a2d;
+}
+
+#content-name-link{
+	font-size: 4rem!important;
+}
+
+div.content {
+  margin-left: 250px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+p {
+	margin: 4rem 0;
+	color: #6c757d;
+}
+
+.resume-content {
+	padding: 5rem 3rem;
+	min-height: 1028px;
+}
+
+div#about {
+	padding: 10rem 3rem;
+}
+
+.span-text-primary{
+ 	color: #04AA6D!important;	
+}
+
+.subheading {
+	font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.3rem;
+	color: #6c757d;	
+}
+
+@media (min-width: 768px) {
+  .resume-content {
+    min-height: 100vh;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .resume-content {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    display: block;
+    /*margin-bottom:2rem;
+    display: flex;
+    flex-direction: inherit;
+    vertical-align: center;*/
+  }
+  .sidebar a {
+  	float: left;
+  }
+
+  div.content {
+  	margin-left: 0;
+  }
+
+  div#about {
+  	padding: 10em 3rem;
+  }
+}
+
+.name-link {
+	font-family: 'Courier New', monospace;
+}
+
+@media screen and (max-width: 400px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		position: fixed; /* Set the navbar to fixed position */
+		top: 0; 
+		z-index: 1;
+  	}
+}
