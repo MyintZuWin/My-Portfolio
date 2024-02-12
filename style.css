@@ -172,7 +172,7 @@ div#about {
 
 @media screen and (max-width: 480px) {
   .sidebar a {
-    font-size: 0.3em!important;
+    font-size: 0.7em!important;
     padding: 25px 10px;
   }
 
