@@ -15,15 +15,8 @@ body{
   height: 100%;
   overflow: auto;
   display: flex;
- flex-direction: column;
- justify-content: center;
-}
-
-.content-title {
-	font-weight: 900;
-	color: #04AA6D!important;  
-	margin-bottom: 5rem;
-  font-size: 2.7rem!important;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .sidebar a {
@@ -42,6 +35,13 @@ body{
 
 .sidebar a:hover{
   color: lightgray;
+}
+
+.content-title {
+	font-weight: 900;
+	color: #04AA6D!important;  
+	margin-bottom: 5rem;
+  font-size: 2.7rem!important;
 }
 
 #content-name-link{
@@ -98,21 +98,6 @@ div#about {
   font-size: 3rem;
 }
 
-
- 
-/*@media (min-width: 768px) {
-  .resume-content {
-    min-height: 100vh;
-  }
-}*/
-
-
-/*@media (min-width: 1200px) {
-  .resume-content {
-    min-height: 100vh;
-  }
-}*/
-
 @media screen and (max-width:992px){
   .sidebar {
     width: 100%;
@@ -147,6 +132,7 @@ div#about {
   p{
     font-size: 0.8rem;
   }
+
   .resume-content {
     min-height: auto;
   }
@@ -161,25 +147,28 @@ div#about {
   a.name-link {
     font-size: 1.2rem!important;
   }
+
   .resume-content {
     min-height: auto;
   }
 
- #content-name-link{
+  #content-name-link{
     font-size: 2.5rem!important;
     color:#343a40!important;
   }
+
   .content-title {
-  font-size: 2.5rem!important;
-}
+    font-size: 2.5rem!important;
+  }
+
   div#about {
     padding: 15em 3rem;
   }
-.dev-icons{
-  font-size: 2rem;
-}
-}
 
+  .dev-icons{
+    font-size: 2rem;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .sidebar a {
@@ -203,41 +192,13 @@ div#about {
     color:#343a40!important;
   }
   .content-title {
-  font-size: 2.5rem!important;
-}
+    font-size: 2.5rem!important;
+  }
+
   div#about {
     padding: 15em 3rem;
   }
-.dev-icons{
-  font-size: 2rem;
-}
-}
-
-/*@media screen and (max-width: 400px) {
-	.sidebar {
-		width: 100%;
-		height: auto;
-		overflow: hidden;
-		position: fixed;
-		top: 0; 
-		z-index: 1;
-    font-size: 0.1rem!important;
-  	}
-
-    a {
-      font-size: 0.1rem;
-    }
-}*/
-/*
-@media screen and (min-width: 320px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    position: fixed; 
-    top: 0; 
-    z-index: 1;
-    font-size: 0.1rem!important;
-    }
+  .dev-icons{
+    font-size: 2rem;
   }
-*/
+}
