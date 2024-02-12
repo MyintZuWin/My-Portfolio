@@ -131,4 +131,7 @@ div#about {
 		top: 0; 
 		z-index: 1;
   	}
+ .sidebar a {
+    font-size: 0.7rem!important;
+  }
 }
