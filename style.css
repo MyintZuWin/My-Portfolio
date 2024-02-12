@@ -61,6 +61,7 @@ p {
 }
 
 .resume-content {
+margin-top: 0;
 	padding: 5rem 3rem;
 	min-height: 100vh;
 }
@@ -71,6 +72,12 @@ div#about {
 
 .span-text-primary{
  	color: #04AA6D!important;	
+}
+
+#edu {
+  top: 50%;
+  bottom: 50%;
+  display: inline-flex;
 }
 
 .subheading {
@@ -175,33 +182,62 @@ div#about {
 
 
 @media screen and (max-width: 480px) {
-	  .sidebar a {
-	    font-size: 0.5em!important;
-	    padding: 25px 10px;
-	  }
-	
-		.sidebar a {
-	    padding: 30px 12px;
-	  }
-	
-	  a.name-link {
-	    font-size: 1.2rem!important;
-	  }
-	  .resume-content {
-	    min-height: auto;
-	  }
-	
-	 #content-name-link{
-	    font-size: 2.5rem!important;
-	    color:#343a40!important;
-	  }
-	  .content-title {
-	  font-size: 2.5rem!important;
-	}
-	  div#about {
-	    padding: 15em 3rem;
-	  }
-	.dev-icons{
-	  font-size: 2rem;
-	}
+  .sidebar a {
+    font-size: 0.3em!important;
+    padding: 25px 10px;
+  }
+
+  .sidebar a {
+    padding: 30px 12px;
+  }
+
+  a.name-link {
+    font-size: 1.2rem!important;
+  }
+  .resume-content {
+    min-height: auto;
+  }
+
+ #content-name-link{
+    font-size: 2.5rem!important;
+    color:#343a40!important;
+  }
+  .content-title {
+  font-size: 2.5rem!important;
 }
+  div#about {
+    padding: 15em 3rem;
+  }
+.dev-icons{
+  font-size: 2rem;
+}
+}
+
+/*@media screen and (max-width: 400px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		position: fixed;
+		top: 0; 
+		z-index: 1;
+    font-size: 0.1rem!important;
+  	}
+
+    a {
+      font-size: 0.1rem;
+    }
+}*/
+/*
+@media screen and (min-width: 320px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    z-index: 1;
+    font-size: 0.1rem!important;
+    }
+  }
+*/
