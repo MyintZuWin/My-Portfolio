@@ -21,8 +21,10 @@ body{
 
 .content-title {
 	font-weight: 900;
-	color: #343a40;
+	color: #04AA6D!important;  
 	margin-bottom: 5rem;
+  font-size: 2.7rem!important;
+
 }
 
 .sidebar a {
@@ -35,17 +37,16 @@ body{
 }
  
 .sidebar a.active {
-  /*background-color: #04AA6D;*/
   color: white;
 }
 
 .sidebar a:hover{
-  background-color: lightgray;
-  color: #974a2d;
+  color: lightgray;
 }
 
 #content-name-link{
 	font-size: 4rem!important;
+  color:#343a40!important;
 }
 
 div.content {
@@ -80,34 +81,93 @@ div#about {
 	color: #6c757d;	
 }
 
-@media (min-width: 768px) {
-  .resume-content {
-    min-height: 100vh;
-  }
+.name-link {
+  font-family: 'Courier New', monospace;
 }
 
 
-@media (min-width: 1200px) {
-  .resume-content {
+
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    .resume-content {
     min-height: 100vh;
   }
 }
+ 
+/* For Tablet View */
+/*@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+    .resume-content {
+    min-height: 100vh;
+  }
+}*/
+ 
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) 
+    and (orientation: portrait) {
+    /*.sidebar {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      position: fixed;
+      top: 0; 
+      z-index: 1;
+      font-size: 0.1rem!important;
+    }
 
-@media screen and (max-width: 700px) {
+    a {
+      font-size: 0.1rem;
+    }*/
+}
+ 
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) 
+    and (orientation: landscape) {
+   /* .sidebar {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    z-index: 1;
+    font-size: 0.1rem!important;
+    }
+*/
+    a {
+      font-size: 0.1rem;
+    }
+}
+
+ 
+/*@media (min-width: 768px) {
+  .resume-content {
+    min-height: 100vh;
+  }
+}*/
+
+
+/*@media (min-width: 1200px) {
+  .resume-content {
+    min-height: 100vh;
+  }
+}*/
+
+@media screen and (max-width: 768px) {
   .sidebar {
     width: 100%;
     height: auto;
     position: fixed;
     top: 0;
+    text-align: center;
     display: block;
-    /*margin-bottom:2rem;
-    display: flex;
-    flex-direction: inherit;
-    vertical-align: center;*/
   }
+
   .sidebar a {
+    display: flex;
+    align-items: center;
   	float: left;
-	  font-size: 0.7rem!important;
   }
 
   div.content {
@@ -117,22 +177,52 @@ div#about {
   div#about {
   	padding: 10em 3rem;
   }
+
+
+
+  #content-name-link{
+    font-size: 3rem!important;
+    color:#343a40!important;
+  }
+
+  p{
+    font-size: 0.8rem;
+  }
 }
 
-.name-link {
-	font-family: 'Courier New', monospace;
-}
 
 @media screen and (max-width: 400px) {
+  .sidebar a {
+    font-size: 0.7rem!important;
+  }
+}
+
+
+/*@media screen and (max-width: 400px) {
 	.sidebar {
 		width: 100%;
 		height: auto;
 		overflow: hidden;
-		position: fixed; /* Set the navbar to fixed position */
+		position: fixed;
 		top: 0; 
 		z-index: 1;
+    font-size: 0.1rem!important;
   	}
- .sidebar a {
-    font-size: 0.7rem!important;
+
+    a {
+      font-size: 0.1rem;
+    }
+}*/
+/*
+@media screen and (min-width: 320px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    z-index: 1;
+    font-size: 0.1rem!important;
+    }
   }
-}
+*/
