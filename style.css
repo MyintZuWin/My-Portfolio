@@ -92,57 +92,6 @@ div#about {
 }
 
 
-/* For Desktop View */
-@media screen and (min-width: 1024px) {
-    .resume-content {
-    min-height: 100vh;
-  }
-}
- 
-/* For Tablet View */
-/*@media screen and (min-device-width: 768px) 
-    and (max-device-width: 1024px) {
-    .resume-content {
-    min-height: 100vh;
-  }
-}*/
- 
-/* For Mobile Portrait View */
-@media screen and (max-device-width: 480px) 
-    and (orientation: portrait) {
-    /*.sidebar {
-      width: 100%;
-      height: auto;
-      overflow: hidden;
-      position: fixed;
-      top: 0; 
-      z-index: 1;
-      font-size: 0.1rem!important;
-    }
-
-    a {
-      font-size: 0.1rem;
-    }*/
-}
- 
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px) 
-    and (orientation: landscape) {
-   /* .sidebar {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    position: fixed;
-    top: 0; 
-    z-index: 1;
-    font-size: 0.1rem!important;
-    }
-*/
-    a {
-      font-size: 0.1rem;
-    }
-}
-
  
 /*@media (min-width: 768px) {
   .resume-content {
@@ -157,7 +106,7 @@ div#about {
   }
 }*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:769px){
   .sidebar {
     width: 100%;
     height: auto;
@@ -183,7 +132,7 @@ div#about {
   }
 
   #content-name-link{
-    font-size: 3rem!important;
+    font-size: 3.5rem!important;
     color:#343a40!important;
   }
 
@@ -191,19 +140,18 @@ div#about {
     font-size: 0.8rem;
   }
   .resume-content {
-    min-height: auto;
+    min-height: max-content;
   }
 }
 
 
-@media screen and (max-width: 600px) {
-  .sidebar a {
+@media screen and (min-width:479px) and (max-width:768px){
+ /* .sidebar a {
     font-size: 0.9em!important;
-    padding: 16px 10px;
-  }
+  }*/
 
   a.name-link {
-    font-size: 1rem!important;
+    font-size: 1.2rem!important;
   }
   .resume-content {
     min-height: auto;
@@ -214,18 +162,20 @@ div#about {
     color:#343a40!important;
   }
   .content-title {
-  font-size: 2rem!important;
+  font-size: 2.5rem!important;
 }
   div#about {
     padding: 15em 3rem;
   }
-
+.dev-icons{
+  font-size: 2rem;
+}
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .sidebar a {
-    font-size: 0.8em!important;
+    font-size: 0.3em!important;
     padding: 16px 10px;
   }
 }
