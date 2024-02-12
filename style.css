@@ -15,8 +15,8 @@ body{
   height: 100%;
   overflow: auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+ flex-direction: column;
+ justify-content: center;
 }
 
 .sidebar a {
@@ -132,7 +132,6 @@ div#about {
   p{
     font-size: 0.8rem;
   }
-
   .resume-content {
     min-height: auto;
   }
@@ -147,16 +146,14 @@ div#about {
   a.name-link {
     font-size: 1.2rem!important;
   }
-
   .resume-content {
     min-height: auto;
   }
 
-  #content-name-link{
+ #content-name-link{
     font-size: 2.5rem!important;
     color:#343a40!important;
   }
-
   .content-title {
     font-size: 2.5rem!important;
   }
@@ -165,10 +162,11 @@ div#about {
     padding: 15em 3rem;
   }
 
-  .dev-icons{
+  ß.dev-icons{
     font-size: 2rem;
   }
 }
+
 
 @media screen and (max-width: 480px) {
   .sidebar a {
@@ -195,10 +193,7 @@ div#about {
     font-size: 2.5rem!important;
   }
 
-  div#about {
-    padding: 15em 3rem;
-  }
-  .dev-icons{
+  .dev-icons {
     font-size: 2rem;
   }
 }
