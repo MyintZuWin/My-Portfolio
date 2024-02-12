@@ -197,32 +197,8 @@ div#about {
   }
 }
 
-
-/*@media screen and (max-width: 400px) {
-	.sidebar {
-		width: 100%;
-		height: auto;
-		overflow: hidden;
-		position: fixed;
-		top: 0; 
-		z-index: 1;
-    font-size: 0.1rem!important;
-  	}
-
-    a {
-      font-size: 0.1rem;
-    }
-}*/
-/*
 @media screen and (min-width: 320px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    position: fixed; 
-    top: 0; 
-    z-index: 1;
-    font-size: 0.1rem!important;
-    }
+  .sidebar a {
+    font-size: 0.7rem!important;
   }
-*/
+  }
