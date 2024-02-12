@@ -62,7 +62,7 @@ p {
 
 .resume-content {
 	padding: 5rem 3rem;
-	min-height: 1028px;
+	min-height: 100vh;
 }
 
 div#about {
@@ -106,21 +106,27 @@ div#about {
   }
 }*/
 
-@media screen and (max-width:769px){
+@media screen and (max-width:992px){
   .sidebar {
     width: 100%;
     height: auto;
     position: fixed;
     top: 0;
-    text-align: center;
+    vertical-align: center;
     display: block;
   }
 
-  .sidebar a {
+  .sidebar a.menu-list {
     display: flex;
     align-items: center;
-  	float: left;
-    font-size: 0.9rem;
+    float: inline-end;
+  }
+
+  .sidebar a.name-link {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    float: left;
   }
 
   div.content {
@@ -128,7 +134,7 @@ div#about {
   }
 
   div#about {
-  	padding: 10em 3rem;
+  	padding: 15em 3rem;
   }
 
   #content-name-link{
@@ -140,15 +146,15 @@ div#about {
     font-size: 0.8rem;
   }
   .resume-content {
-    min-height: max-content;
+    min-height: auto;
   }
 }
 
 
 @media screen and (min-width:479px) and (max-width:768px){
- /* .sidebar a {
-    font-size: 0.9em!important;
-  }*/
+ .sidebar a {
+    padding: 20px 12px;
+  }
 
   a.name-link {
     font-size: 1.2rem!important;
